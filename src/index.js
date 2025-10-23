@@ -11,7 +11,7 @@ DbConnect()
 })
 .catch((error)=>{
 
-//    console.log("Server is not connected");
+    console.log("Server is not connected");
     
 })
  

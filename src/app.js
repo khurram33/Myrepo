@@ -7,7 +7,7 @@ const app = express();
 //different url
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
-    Credential: true
+    credentials: true
 }))
 
 //middleware
